@@ -11,17 +11,17 @@ namespace JAMK.IT
         static void Main(string[] args)
         {
             VirheellinenPesuohjelmointi();
-            ToimivaPesuohjelmointi();
+            //ToimivaPesuohjelmointi();
         }
         //Tehtävän 2 Pesukoneen testaus
         static void VirheellinenPesuohjelmointi()
         {
-            //luodaan kiuas -olio
+            //luodaan pesukone -olio
             Pesukone pesukone = new JAMK.IT.Pesukone();
             //Pesukone päälle, vesihana auki, pesuohjelman valinta, veden lämmön valinta
             pesukone.OnkoPaalla = false;
             pesukone.VesihanaAuki = false;
-            pesukone.Pesuohjelma = "merinovillapesu";
+            pesukone.Pesuohjelma = 5;
             pesukone.VedenLampo = 0;
             //näytetään konsolilla
             Console.WriteLine("Pesukone on päällä = {0}", pesukone.OnkoPaalla);
@@ -31,12 +31,12 @@ namespace JAMK.IT
         }
         static void ToimivaPesuohjelmointi()
         {
-            //luodaan kiuas -olio
+            //luodaan pesukone -olio
             Pesukone pesukone = new JAMK.IT.Pesukone();
-            //pistetään kiuas lämpenemään ja asetetaan lämpö & kosteutta
+            //Pesukone päälle, vesihana auki, pesuohjelman valinta, veden lämmön valinta
             pesukone.OnkoPaalla = true;
             pesukone.VesihanaAuki = true;
-            pesukone.Pesuohjelma = "puuvillapesu";
+            pesukone.Pesuohjelma = 1;
             pesukone.VedenLampo = 40;
             //näytetään konsolilla
             Console.WriteLine("Pesukone on päällä = {0}", pesukone.OnkoPaalla);

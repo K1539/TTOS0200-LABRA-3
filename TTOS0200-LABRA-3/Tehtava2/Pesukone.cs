@@ -11,8 +11,8 @@ namespace JAMK.IT
         public bool OnkoPaalla { get; set; }
         public bool VesihanaAuki { get; set; }
         //tässä pesukoneessa vain kolme pesuohjelmaa
-        string pesuohjelma;
-        public string Pesuohjelma
+        float pesuohjelma;
+        public float Pesuohjelma
         {
             get
             {
@@ -21,9 +21,9 @@ namespace JAMK.IT
             set
             {
                 pesuohjelma = value;
-                if (pesuohjelma != "puuvillapesu" || pesuohjelma != "villapesu" || pesuohjelma != "linkous")
+                if (pesuohjelma != 1 || pesuohjelma != 2 || pesuohjelma != 3)
                 {
-                    pesuohjelma = "VIRHE";
+                    pesuohjelma = 1;
                 }
             }
         }

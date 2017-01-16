@@ -1,46 +1,43 @@
-﻿/*
- * Luo Vehicle-luokka seuraavien tietojen mukaisesti:
-
-ominaisuudet
-
-Name:string
-Speed:int
-Tyres:int
-toiminnot
-
-PrintData(), tulostaa Vehiclen ominaisuudet näytölle
-ToString():string, palauttaa kaikki Vehiclen ominaisuudet yhtenä merkkijonona
-Toteuta Vehicle-luokan ohjelmointi sekä pääohjelma, jolla luot olion Vehicle-luokasta. Muuta olion arvoja ja tulosta olion arvoja konsolille.
-*
-* Jere Liikka 16.1.2017
-* */
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tehtava4
+namespace JAMK.IT
 {
-    class Vehicle
-    {
-        public string Name;
-        public int Speed;
-        public int Tyres;
-
-        public void PrintData()
-        {
-            Console.WriteLine();
-        }
-    }
     class Program
     {
         static void Main(string[] args)
         {
-            Vehicle Auto = new Vehicle();
-            Auto.Name = "Volvo";
-            Auto.Speed = 420;
-            Auto.Tyres = 4;
-        }    
+           ToimivaTelevisioSetup();
+           //ViallinenTelevisioSetup();
+        }
+        static void ToimivaTelevisioSetup()
+        {
+            Televisio salora = new Televisio();
+            salora.OnkoTelevisioPaalla = true;
+            salora.OnkoSignaali = true;
+            salora.Kanava = 2;
+            salora.Aanenvoimakkuus = 20;
+            //
+            Console.WriteLine("Televivio on päällä = {0}", salora.OnkoTelevisioPaalla);
+            Console.WriteLine("Signaali on = {0}", salora.OnkoSignaali);
+            Console.WriteLine("Valittu kanava = {0}", salora.Kanava);
+            Console.WriteLine("Äänenvoimakkuus = {0}", salora.Aanenvoimakkuus);
+        }
+        static void ViallinenTelevisioSetup()
+        {
+            Televisio salora = new Televisio();
+            salora.OnkoTelevisioPaalla = true;
+            salora.OnkoSignaali = false;
+            salora.Kanava = 4;
+            salora.Aanenvoimakkuus = 666;
+            //
+            Console.WriteLine("Televivio on päällä = {0}", salora.OnkoTelevisioPaalla);
+            Console.WriteLine("Signaali on = {0}", salora.OnkoSignaali);
+            Console.WriteLine("Valittu kanava = {0}", salora.Kanava);
+            Console.WriteLine("Äänenvoimakkuus = {0}", salora.Aanenvoimakkuus);
+        }
     }
 }

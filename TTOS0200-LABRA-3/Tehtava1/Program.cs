@@ -26,6 +26,9 @@ namespace Tehtava1
             Console.WriteLine("Kiuas on päällä {0}", kiuas.OnkoPaalla);
             Console.WriteLine("Kiukaan lämpötila on {0}", kiuas.Lampotila);
             Console.WriteLine("Kiukaan kosteus {0}", kiuas.Kosteus);
+            //mitä tapahtuu jos kosteus yli rajojen
+            kiuas.Kosteus = 101;
+            Console.WriteLine("Kiukaan kosteus {0}", kiuas.Kosteus);
         }
     }
 }

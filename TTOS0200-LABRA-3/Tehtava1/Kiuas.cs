@@ -10,6 +10,23 @@ namespace Tehtava1
     {
         public bool OnkoPaalla { get; set; }
         public float Lampotila { get; set; }
-        public float Kosteus { get; set; }
+        //Kosteus voi olla välillä 0 - 100
+        float kosteus;
+        public float Kosteus
+        {
+            get
+            {
+                return kosteus;
+            }
+            set
+            {
+                kosteus = value;
+                if (kosteus < 0 || kosteus > 100)
+                {
+                    kosteus = 0;
+                }
+            }
+        }
+        
     }
 }

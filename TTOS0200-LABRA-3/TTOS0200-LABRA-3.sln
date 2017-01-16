@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTOS0200-LABRA-3", "TTOS0200-LABRA-3\TTOS0200-LABRA-3.csproj", "{9529B487-B836-4624-8D83-821BE80C0E1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava3", "Tehtava3\Tehtava3.csproj", "{0554B64E-5702-42FD-8D99-7D97AA80C8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava1", "Tehtava1\Tehtava1.csproj", "{5B2892BA-D84A-4ABA-9CC3-6E68A0019DA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9529B487-B836-4624-8D83-821BE80C0E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9529B487-B836-4624-8D83-821BE80C0E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9529B487-B836-4624-8D83-821BE80C0E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0554B64E-5702-42FD-8D99-7D97AA80C8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0554B64E-5702-42FD-8D99-7D97AA80C8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0554B64E-5702-42FD-8D99-7D97AA80C8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0554B64E-5702-42FD-8D99-7D97AA80C8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2892BA-D84A-4ABA-9CC3-6E68A0019DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2892BA-D84A-4ABA-9CC3-6E68A0019DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2892BA-D84A-4ABA-9CC3-6E68A0019DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2892BA-D84A-4ABA-9CC3-6E68A0019DA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

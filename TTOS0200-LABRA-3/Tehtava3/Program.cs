@@ -20,7 +20,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tehtava3
+namespace Tehtava4
 {
     class Vehicle
     {

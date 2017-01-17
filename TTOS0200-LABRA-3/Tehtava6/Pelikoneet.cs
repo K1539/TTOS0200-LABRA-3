@@ -8,8 +8,16 @@ namespace JAMK.IT
 {
     public class Pelikoneet
     {
-        public string Nimi;
-        public int Julkaisuvuosi;
+        public string Nimi { get; set; }
+        public int Julkaisuvuosi { get; set; }
+        public double MyytyMaara { get; set; }
+
+        public Pelikoneet(string nimi, int julkaisuvuosi, double myytymaara)
+        {
+            Nimi = nimi;
+            Julkaisuvuosi = julkaisuvuosi;
+            MyytyMaara = myytymaara;
+        }
 
     }
 }

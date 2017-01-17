@@ -26,7 +26,7 @@ namespace JAMK.IT
 
             for (int i = 0; i < OpiskelijaLista.Count; i++)
             {
-                Console.WriteLine("Opiskelija " + i+1);
+                Console.WriteLine("Opiskelija " + (i+1));
                 Console.WriteLine("   Nimi: " + OpiskelijaLista[i].Nimi);
                 Console.WriteLine("   Ikä: " + OpiskelijaLista[i].Ika);
                 Console.WriteLine("   Luokka: " + OpiskelijaLista[i].Luokka);

@@ -30,7 +30,7 @@ namespace JAMK.IT
             CD S3 = new CD("Woke Up With Wood  3:45");
             CD S4 = new CD("Rough Boy  4:50");
             CD S5 = new CD("Can't Stop Rockin'  3:01");
-            CD S6 = new CD("Planet Of Women  4:04)");
+            CD S6 = new CD("Planet Of Women  4:04");
             CD S7 = new CD("I Got The Message  3:27");
             CD S8 = new CD("Velcro Fly  3:29");
             CD S9 = new CD("Dipping Low (In The Lap Of Luxury)  3:11");
